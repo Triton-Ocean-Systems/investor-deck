@@ -1,62 +1,69 @@
-# Triton v3: claims, assumptions and remaining evidence
+# Triton v4: claims, assumptions and remaining evidence
 
-Prepared October 4, 2026. This is the diligence companion to the 12-page deck, not proof of company performance.
+Prepared October 4, 2026. Companion to the network-first 12-page deck. Ocean data and the observation network are the focus; buyer discovery determines which datasets and deployments deserve investment. Sargassum is one candidate application. County procurement is not a prerequisite.
 
-## Verification rule: the Temptation of Done
+## The Temptation of Done
 
-A coherent pitch and a working PDF do not validate the company. For each material claim, ask what would disprove it, identify the evidence needed, and avoid converting a proposed target into a historical result. The revised deck distinguishes external evidence, company-reported status, proposed targets and illustrative arithmetic.
+A finished PDF and working data pipe do not validate demand. Separate company reports, external evidence, proposed targets and arithmetic. Ask what would disprove the thesis. v4 supersedes the resort cleanup framing and removes its $18K site subscription, $6K service-cost assumption and savings example.
 
-## Sources inspected
+## Sources
 
-- Original live [viewer](https://triton-ocean-systems.github.io/investor-deck/index.html) and its 12-page [v2 PDF](https://triton-ocean-systems.github.io/investor-deck/Triton_PreSeed_Deck_v2.pdf): primary source for company disclosures, not independent verification.
-- [Miami-Dade legislative file 252110](https://www.miamidade.gov/govaction/matter.asp?file=true&fileAnalysis=false&matter=252110&yearFolder=Y2025), October 2025: reports $20,921,630 cumulative value over 5.5 years and $3,803,933 annualized for the then-current removal contract. v3 rounds the historical annualized figure to $3.80M. The memo's proposed replacement award was amended to seek best and final offers. v3 does not present that proposal as an awarded contract or a current 2026 budget.
-- [USF sargassum trajectory system](https://ocgweb.marine.usf.edu/Models/Sargassum/sargassum.html): satellite imagery and circulation models, daily updates and a 3.5-day forecast. Research product; commercial reuse rights are not established.
-- [USF 2025 research update](https://www.usf.edu/marine-science/news/2025/usf-experts-lead-on-sargassum-research-monitoring-and-prediction.aspx): describes higher-resolution coastal forecasting work. Triton cannot assume incumbents lack local capability.
-- [NOAA PORTS](https://tidesandcurrents.noaa.gov/ports_info.html): established real-time oceanographic observations.
-- [Sofar Wayfinder](https://www.sofarocean.com/products/wayfinder): voyage guidance using ocean intelligence.
-- [Saildrone](https://www.saildrone.com/): autonomous maritime observation and data delivery. No claim of pricing or performance inferiority.
+- Original [v2 deck](https://triton-ocean-systems.github.io/investor-deck/Triton_PreSeed_Deck_v2.pdf): company-reported prototype stage, approximately $48K founder funding, no paying customers or institutional capital, software foundation, intended NMEA / AIS / GNSS inputs and EdgeCore ceiling. These disclosures are not independently audited or updated accounts.
+- [NOAA PORTS](https://tidesandcurrents.noaa.gov/ports_info.html): existing real-time oceanographic observations. Persistent observation already exists; Triton must prove an incremental coverage or access advantage.
+- [USF sargassum trajectory system](https://ocgweb.marine.usf.edu/Models/Sargassum/sargassum.html): an established alternative for one possible application. No affiliation, commercial license or data agreement established.
+- [Sofar Wayfinder](https://www.sofarocean.com/products/wayfinder): ocean intelligence and voyage guidance. [Saildrone](https://www.saildrone.com/): autonomous maritime observation and data delivery. No inferred Triton superiority or partnership.
 
-## Slide-level evidence register
+## Slide evidence register
 
-| Slide | Classification | Verification still required |
-|---|---|---|
-| 1 | Positioning; company-reported pre-revenue/pre-MVP stage; proposed raise | Confirm status and funding horizon as of circulation date. Observation-surface graphic expresses vision, not current depth coverage. |
-| 2 | Proposed resort buyer; historical external cleanup-spend evidence | Verify resorts control cleanup dispatch and have avoidable discretionary spend. County removal expenditure is neither software TAM nor evidence of resort willingness to pay. |
-| 3 | Proposed workflow and architecture | Confirm sensor modality, permissions, calibration, communications and access to licensed external inputs. No functioning sargassum detector or alert platform demonstrated. |
-| 4 | Proposed acceptance gates | Collect raw bench and field logs; fix definitions before testing. The EdgeCore ceiling excludes vessel systems and external sensors and is not total installed cost. |
-| 5 | Proposed interviews, pilot offer and conversions | No interview count, signed pilot, contract, revenue or conversion supplied. BeachLens remains an exploratory discussion per v2. |
-| 6 | Entirely illustrative commercial assumptions | Validate installed cost, recurring service cost, price and incremental benefit. No demonstrated 67% margin or 40% savings. |
-| 7 | Scenario arithmetic, not measured market | Build a named, deduplicated eligible account/site list. No verified TAM, SAM, market share or customer pipeline. |
-| 8 | External product descriptions; proposed differentiation | Benchmark the exact decision against existing USF forecasts and manual inspection. No superiority or formal relationship established. |
-| 9 | Conditional data/network advantage | Obtain reusable data rights and demonstrate cross-site improvement, retention or lower service cost. More nodes can also increase cost without improving value. |
-| 10 | v2 company-reported founder disclosures | Confirm approximately $48K spend, software maturity and founder roles. Prior credentials, marine experience, exits and buyer access were not provided and are not invented. |
-| 11 | Proposed timing and internal spending gates | Confirm staffing, seasonal event availability and deployment lead times. A renewal may fall beyond month 18; conversion does not equal renewal. |
-| 12 | v2 allocation carried forward; planning arithmetic | Detailed monthly cash flow, staffing, financing terms and contingency remain unvalidated. |
+| Slide | Status and evidence needed |
+|---|---|
+| 1 | Network positioning; company-reported stage; proposed raise. No field-proven network or water-column/seafloor coverage. Cover graphic represents intended surfaces. |
+| 2 | Hypothesized data-user pain. Verify actual data gaps, acquisition/integration costs, budget and value beyond available feeds. No quantified customer loss or savings claimed. |
+| 3 | Proposed architecture and record product. Audit actual fields, sensors, rates, calibration and rights. Query access, provenance and quality controls remain requirements, not demonstrated capabilities. |
+| 4 | Proposed 72-hour bench, 30-day field and >=95% valid-record targets. Need raw logs and fixed schedule/validity definitions. No pass result supplied. |
+| 5 | Candidate buyers; 15 interviews, 3 paid trials and 2 annual conversions are targets. No established customer segment or signed trial. |
+| 6 | $24K annual account price and four-account package are illustrative. No validated demand, margin, direct network cost or break-even point. |
+| 7 | 30, 100 and 500 accounts are scenarios, not TAM, SAM or pipeline. Build a named, deduplicated inventory for a selected dataset. |
+| 8 | Primary-source descriptions of alternatives. Compare a specific dataset's coverage, continuity, provenance, delivery, cost and license terms. |
+| 9 | Conditional compounding advantage. Prove unique coverage, comparable history and multiple buyers benefiting from shared acquisition; establish lawful reuse. |
+| 10 | Original founder disclosures. Confirm spend, prototype maturity and stage. Prior credentials, engineering/marine experience and buyer access remain unsupplied. |
+| 11 | Proposed spending gates. Cost staffing, deployments and discovery. Renewals may occur after month 18; no guaranteed seed-readiness date. |
+| 12 | Original allocation amounts, now applied to data/network validation. Detailed cash flow, licensing costs and financing terms remain absent. |
 
-## Arithmetic and economic critique
+## Dataset critique
 
-- Annual subscription: $1,500 x 12 = $18,000. Direct recurring cost assumption: $6,000. Gross profit: $12,000; gross margin 66.67%, rounded to 67%. Sales acquisition, R&D and general overhead remain outside gross margin, not outside the company budget.
-- Proposed recurring-cost discovery buckets: connectivity/cloud, service visits, replacement reserve and direct support. A credible $6,000 estimate requires local supplier quotes and measured field work; the deck intentionally does not invent a cost breakdown.
-- Setup: $5,000 fee against an assumed $5,000 installed cost. A 90-day $5,000 pilot would cost approximately $6,500 if annual recurring service cost accrues evenly. The implied $1,500 learning subsidy per pilot is not a profitable sale; seasonal and setup costs could make it larger.
-- Customer example: 30 response days x $1,500 avoidable spend x 40% improvement = $18,000. This is subscription break-even only, not compelling ROI. First-year break-even with setup is $23,000. A purchase should require a customer-agreed surplus above cost. Existing fixed-price cleanup contracts may leave little or no avoidable cost, which can invalidate this buyer hypothesis.
-- Site scenarios: 50 x $18,000 = $900,000; 150 x $18,000 = $2,700,000; 1,000 x $18,000 = $18,000,000. These numbers demonstrate scale requirements, not availability of that many eligible sites. The initial wedge alone does not substantiate venture scale.
-- Raise allocation: $360K + $300K + $150K + $150K + $90K + $150K = $1.2M. Percentages total 100%. Average gross budget $66,666.67/month over 18 months; excluding $150K reserve, $58,333.33/month.
-- Internal phase envelopes: $300K + $450K + $300K + $150K reserve = $1.2M. Phases and functional categories are two views of the same total, not additive budgets. These are proposed management gates, not legally binding investor tranches.
+The first engineering baseline is planned vessel position and available navigation context from NMEA / AIS / GNSS inputs. NMEA is an interface, not a scientific variable. Inventory actual fields and rates on Node 001.
 
-## Tests that could invalidate the narrative
+This can validate capture, provenance, outage recovery and delivery, but may offer weak standalone commercial differentiation. AIS/GNSS do not establish proprietary oceanographic ground truth, water-quality measurement, sargassum detection or seabed observation. Environmental variables require specified sensors, calibration, measurement context and maintenance. The first commercial dataset remains unselected: discover demand alongside Node 001 validation, then instrument the necessary variables where economics support it.
 
-1. Buyer interviews show resort staff cannot influence contracted cleanup spend. Identify another budget owner before continuing.
-2. Local cameras plus manual inspection already solve the daily decision at lower cost. A generic dashboard provides no incremental value.
-3. Node 001 reliably transports AIS/GNSS data but produces no sargassum evidence. Infrastructure success does not establish application feasibility.
-4. Local sensing does not improve warning time, false alarms or cleanup scheduling relative to available forecasts. Benchmark prospectively on held-out event days.
-5. Recurring service costs exceed the price a buyer will pay. Measure labor, maintenance, corrosion/fouling, outages and travel, rather than relying on a cheap compute bill of materials.
-6. Seasonal pilots see too few arrival events to establish benefit. Extend measurement, report inconclusive evidence and preserve cash; do not declare success from absence of events.
-7. Customers restrict data reuse or nearby sites provide redundant observations. No compounding advantage follows automatically from additional deployments.
+Offline buffering preserves records for later recovery; it does not provide live access during outages. Completeness, timeliness and measurement accuracy require separate tests. BeachLens remains an exploratory discussion per v2, not a customer or formal partner.
 
-## Minimum evidence pack before investor circulation
+## Commercial assumptions and arithmetic
 
-Confirm founder disclosures and stage; provide a dated prototype demonstration, Node 001 logs, sensor specification and installed bill of materials; document buyer interviews and an eligible account list; agree pilot baselines and metrics; validate data licenses and reuse rights; prepare staffing and monthly cash flow. The revised deck is reviewable now, but these gaps remain business diligence, not formatting tasks.
+- Proposed annual subscriptions/API access cover a defined dataset. Dedicated collection and integration require separate pricing. Specify footprint, variables, freshness, quality, permitted use and support before quoting.
+- $24,000/account/year is a proposed price test, not a current price, quote or validated willingness to pay. Four accounts sharing a package produce $96,000 annual revenue. This is not a profitability or four-account break-even claim.
+- Direct cost must include collection, recovery of deployment capital, licensing, servicing, replacements, connectivity, quality control, hosting and direct support. Sales acquisition, engineering and overhead also affect cash flow. No gross-margin figure is asserted.
+- Reuse requires overlapping buyer needs and contractual permission. Dedicated contracts may prohibit resale. Shared acquisition does not mean cost-free revenue expansion.
+- Scenarios: 30 x $24K = $720K; 100 x $24K = $2.4M; 500 x $24K = $12M recurring revenue. These do not establish that those buyers exist. Accounts and nodes differ: one buyer may require many nodes; one node may serve multiple buyers. Dedicated-collection fees are excluded.
+- A bottom-up market needs a selected dataset, named eligible organizations, budget authority, free-alternative analysis and tested pricing. The $12M scenario does not alone demonstrate venture scale. New datasets and territories need their own evidence.
+- Raise amounts: $360K + $300K + $150K + $150K + $90K + $150K = $1.2M. Percentages total 100%. The $150K customer-pilot category is now customer data trials + BD; its amount is unchanged.
+- Average gross 18-month budget: $66,666.67/month; excluding $150K reserve: $58,333.33/month. Phase envelopes: $300K + $450K + $300K + $150K reserve = $1.2M. Phases and functional categories describe the same capital, not additive budgets or investor tranches.
 
-## Rebuild and source access
+## Falsification tests
 
-The repository originally contained two PDFs, a PDF.js viewer and a short README, with no slide source. v3 adds `build_deck.py` and the cropped original observation-surfaces asset. Rebuild with Python 3 and ReportLab using `python build_deck.py`; Arial is used on Windows, with Helvetica elsewhere. The generated PDF remains selectable text. All source PDFs are retained.
+1. Buyers already get adequate observations free or from existing suppliers. Generic feed aggregation may have no paid advantage.
+2. Node 001 reliably transports records but its variables do not answer a valuable question. Infrastructure success is not product-market fit.
+3. Interviewees like the concept but lack budget or a purchase path. Interest is not paid demand.
+4. Required instruments and coverage cost more than buyers will pay. Measure installed and recurring costs, not just compute hardware.
+5. Buyers require incompatible variables, freshness or footprints. A single network cannot automatically support every application.
+6. Providers, hosts or customers restrict collection and reuse. No commercial data asset compounds without rights.
+7. Added nodes produce redundancy or maintenance expense. Measure unique coverage, revenue and direct cost by cluster.
+8. Historical measurements drift or lack calibration. An archive can accumulate error instead of value.
+
+## Evidence before circulation
+
+Confirm company/founder disclosures. Provide dated demonstrations, Node 001 logs and an inventory of fields, instruments, provenance, coverage and rights. Document buyer discovery and price tests; select a differentiated commercial dataset. Agree trial success criteria, count eligible accounts, and prepare staffing/monthly cash flow. Present these as missing evidence until they exist.
+
+## Source
+
+`build_deck.py` generates `Triton_PreSeed_Deck_v4.pdf` with Python 3 and ReportLab. Original observation-surface artwork and earlier PDFs are retained. The review branch selects v4; live Pages changes only when merged and deployed.
