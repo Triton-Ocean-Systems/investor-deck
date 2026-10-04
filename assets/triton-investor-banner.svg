@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+<title id="title">Triton Ocean Systems — Make the ocean observable</title>
+<desc id="desc">Ocean data and distributed observation infrastructure. Conceptual stages: observe, qualify and access. Not a depiction of deployed coverage.</desc>
+<rect width="1440" height="420" rx="16" fill="#03111a"/>
+<path d="M0 0V420" stroke="#00becd" stroke-width="12"/>
+<text x="72" y="75" fill="#00becd" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3">OCEAN DATA · OBSERVATION INFRASTRUCTURE</text>
+<text x="72" y="154" fill="#f6f9fa" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700">TRITON OCEAN SYSTEMS</text>
+<text x="72" y="213" fill="#f6f9fa" font-family="Arial,Helvetica,sans-serif" font-size="31">Make the ocean observable.</text>
+<text x="72" y="277" fill="#93aeb8" font-family="Arial,Helvetica,sans-serif" font-size="21">Persistent observations. Queryable ocean data.</text>
+<path d="M914 115H1336M914 212H1336M914 309H1336" stroke="#20404d" stroke-width="2"/>
+<circle cx="948" cy="115" r="10" fill="#00becd"/><circle cx="1099" cy="212" r="10" fill="#00becd"/><circle cx="1266" cy="309" r="10" fill="#00becd"/>
+<text x="915" y="94" fill="#93aeb8" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">OBSERVE</text>
+<text x="915" y="191" fill="#93aeb8" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">QUALIFY</text>
+<text x="915" y="288" fill="#93aeb8" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">ACCESS</text>
+<text x="72" y="370" fill="#93aeb8" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">PRE-SEED INVESTOR PRESENTATION</text>
+</svg>

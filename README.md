@@ -1,55 +1,44 @@
 <div align="center">
 
-# TRITON OCEAN SYSTEMS
+![Triton Ocean Systems — Make the ocean observable. Ocean data and distributed observation infrastructure.](assets/triton-investor-banner.svg)
 
-### Make the ocean observable.
+[![Investor deck: v4, 12 pages](assets/badge-deck.svg)](Triton_PreSeed_Deck_v4.pdf)
+[![Company-reported stage: prototype](assets/badge-stage.svg)](#current-stage-and-evidence)
+[![Proposed pre-seed raise target: $1.2M](assets/badge-raise.svg)](Triton_PreSeed_Deck_v4.pdf)
 
-**Ocean data. Distributed observation. Persistent intelligence.**
-
-[View the live investor deck](https://triton-ocean-systems.github.io/investor-deck/index.html) · [Open the deck PDF](Triton_PreSeed_Deck_v4.pdf) · [Review claims and assumptions](CLAIMS_AND_ASSUMPTIONS.md)
+**[View the live investor deck](https://triton-ocean-systems.github.io/investor-deck/index.html)** · [Download the PDF](https://triton-ocean-systems.github.io/investor-deck/Triton_PreSeed_Deck_v4.pdf) · [Evidence register](CLAIMS_AND_ASSUMPTIONS.md)
 
 </div>
 
----
+## Triton Ocean Systems
 
-## The investment thesis
+Triton is developing a distributed observation network designed to turn coastal and vessel observations into persistent, queryable ocean data. The network and its data are the core product. Customer discovery determines which observations have commercial value and where additional coverage deserves investment.
 
-Triton Ocean Systems is developing a distributed observation network designed to turn coastal and vessel observations into persistent, queryable ocean data.
+The investment thesis depends on dependable collection, useful coverage and a permissioned historical record. Additional nodes must contribute measurable value to buyers or enable economical reuse across customers.
 
-The network and its data are the core product. Customer discovery determines which observations have commercial value, where new coverage is justified, and how access should be priced. Sargassum monitoring is one possible application; it does not define the company or require county procurement as the first route to market.
+## Problems the network could address
 
-Triton's potential advantage depends on useful coverage, reliable delivery and a permissioned historical record. More nodes create value only when their observations improve a buyer's work or support economical reuse across customers.
+Established public and commercial systems already provide valuable ocean observations. Triton's opportunity is to identify specific unmet needs and demonstrate that new observations or better access justify their cost.
 
-## View the deck
+| Problem to validate | Potential network value | Evidence required |
+|---|---|---|
+| **Gaps in local coverage or observation frequency** | Repeat measurements where a buyer needs more spatial or temporal detail. | A mapped gap against available sources, required variables and a buyer's sampling needs. |
+| **Expensive, repeated data collection** | Share an observation footprint across buyers with overlapping requirements. | Measured collection and servicing costs, paying demand and contractual reuse rights. |
+| **Fragmented data or unclear measurement quality** | Provide queryable records with time, location, source and quality context. | Validated schemas, provenance, calibration and a demonstrated reduction in integration effort. |
+| **Limited comparable historical ground truth** | Accumulate consistent local records for analysis and model validation. | Sufficient history, comparable instruments and improvements on independent evaluation data. |
 
-**Live GitHub Pages presentation:** [triton-ocean-systems.github.io/investor-deck](https://triton-ocean-systems.github.io/investor-deck/index.html)
+These are problems to investigate, not a claim that Node 001 has already solved them. A working data pipeline establishes technical feasibility; paid adoption and measured utility establish commercial value.
 
-**Source repository:** [github.com/Triton-Ocean-Systems/investor-deck](https://github.com/Triton-Ocean-Systems/investor-deck)
+## Potential applications and buyers
 
-| Resource | Purpose |
-|---|---|
-| [Live presentation](https://triton-ocean-systems.github.io/investor-deck/index.html) | Browser-based deck with a PDF download. Reflects the deployed branch. |
-| [Network-first deck · v4](Triton_PreSeed_Deck_v4.pdf) | The 12-page investor narrative included with this source revision. |
-| [Claims and assumptions](CLAIMS_AND_ASSUMPTIONS.md) | Evidence, sources, financial assumptions and tests that could disprove the thesis. |
-| [Editable build source](build_deck.py) | Text, layout and presentation logic used to generate the PDF. |
-| [Revision pull request](https://github.com/Triton-Ocean-Systems/investor-deck/pull/2) | Review the proposed deck and source changes before deployment. |
+| Candidate application | Potential buyer | Data and validation needed |
+|---|---|---|
+| **Coastal and marine operations** | Marine operators or contractors | Relevant local conditions, sufficient freshness and proof that observations improve a defined planning decision. |
+| **Environmental monitoring** | Environmental consultancies or monitoring teams | Calibrated instruments for specified variables, quality controls and reporting requirements. |
+| **Forecast and model validation** | Ocean analytics teams or researchers | Time-aligned observations and independent comparisons with model outputs. |
+| **Sargassum and beach conditions** | Beach operators or environmental teams | Suitable sensing, shoreline labels and value beyond existing forecasts and inspection. |
 
-The live presentation may show an earlier version until the revision is merged and GitHub Pages finishes deployment. The PDF link above follows the files on the branch being viewed.
-
-## What the deck covers
-
-1. Triton's ocean data and observation-network positioning.
-2. The economic burden of missing or difficult-to-use observations.
-3. The proposed data product and observation architecture.
-4. Node 001 validation from capture through delivery.
-5. Buyer discovery and demand-guided deployment.
-6. Recurring data access and coverage economics.
-7. Bottom-up market scenarios based on qualified buying accounts.
-8. Existing observation systems and commercial alternatives.
-9. The conditions for a compounding data advantage.
-10. Founder evidence and the current company stage.
-11. Technical and commercial milestones over an 18-month planning horizon.
-12. The proposed $1.2M pre-seed raise and capital allocation.
+These groups are candidate buyers, not customers or partners. Sargassum is one possible application; county procurement is not a prerequisite for the initial commercial path. The first commercial dataset and buyer segment remain to be selected.
 
 ## Observation architecture
 
@@ -57,46 +46,70 @@ The live presentation may show an earlier version until the revision is merged a
 |---|---|
 | **BeachNode** | Fixed coastal observation. |
 | **SailNode** | Mobile development and field validation. |
-| **Vessel integrations** | Observation inputs from third-party assets, subject to access and use rights. |
-| **EdgeCore** | Local capture, processing and buffering when connectivity is interrupted. |
+| **Vessel integrations** | Inputs from third-party assets, subject to access and use rights. |
+| **EdgeCore** | Local capture, processing and buffering through connectivity interruptions. |
 | **Triton data platform** | Proposed archive and query/API access with source and quality context. |
 
-These are design roles, not a claim of a deployed fleet. Node 001's planned NMEA / AIS / GNSS inputs can validate a data path; they do not, by themselves, establish oceanographic measurement or commercial differentiation. Environmental datasets require suitable instrumentation and calibration.
+Node 001's planned NMEA / AIS / GNSS inputs can validate capture and delivery. They do not alone establish oceanographic measurement, water-quality sensing or sargassum detection. Environmental datasets require suitable instrumentation and calibration. The architecture describes intended roles, not a deployed fleet.
+
+## Validation and commercial development
+
+1. **Prove the data path.** Validate capture, provenance, recovery after outages and documented access using Node 001.
+2. **Select a valuable dataset.** Test buyer requirements, available alternatives, budgets and rights alongside engineering work.
+3. **Run paid data trials.** Agree usefulness and quality criteria with buyers; measure collection and delivery costs.
+4. **Expand justified coverage.** Add deployments where demand and economics support them; test whether the same observations benefit multiple customers.
+
+The proposed business model combines annual dataset/API access with separately priced dedicated collection or integration. Pricing, customer counts and financial scenarios in the deck remain assumptions. Data reuse, retention and unit economics must be demonstrated before claiming a compounding network advantage.
 
 ## Current stage and evidence
 
-The original deck reports a **prototype / pre-MVP, pre-revenue** company, approximately **$48K in founder funding**, no paying customers and no institutional capital. These are company disclosures carried forward for review, not independently audited accounts.
+The original deck reports **prototype / pre-MVP, pre-revenue** status, approximately **$48K in founder funding**, no paying customers and no institutional capital. These are company disclosures carried forward for review, not independently audited accounts. The **$1.2M pre-seed raise** is a proposed target with an approximately 18-month planning horizon.
 
-The revised deck labels pricing, account counts and validation thresholds as assumptions or proposed targets. It does not present future deployments, customer discussions, trials or performance goals as traction. Read the [evidence register](CLAIMS_AND_ASSUMPTIONS.md) alongside the deck.
+The badges summarize deck metadata, a company-reported stage and a funding target. They do not represent achieved funding, verified traction or certification. Customer discussions, proposed trials and performance targets are not presented as results.
 
-## Rebuild the PDF
+Read the [claims and assumptions register](CLAIMS_AND_ASSUMPTIONS.md) alongside the presentation for sources, arithmetic, unsupported metrics and tests that could disprove the thesis.
 
-Use Python 3 with the dependencies listed in [requirements.txt](requirements.txt):
+## Presentation and source
+
+| Resource | Link |
+|---|---|
+| **Live GitHub Pages deck** | [triton-ocean-systems.github.io/investor-deck](https://triton-ocean-systems.github.io/investor-deck/index.html) |
+| **Current presentation** | [Network-first investor deck · v4 · 12 pages](Triton_PreSeed_Deck_v4.pdf) |
+| **Source repository** | [github.com/Triton-Ocean-Systems/investor-deck](https://github.com/Triton-Ocean-Systems/investor-deck) |
+| **Diligence companion** | [Claims and assumptions](CLAIMS_AND_ASSUMPTIONS.md) |
+| **Editable presentation source** | [PDF generator](build_deck.py) |
+
+Earlier PDFs remain in the repository for history. This repository contains the investor presentation and its source, rather than the operational data platform.
+
+<details>
+<summary><strong>Rebuild and maintain the presentation</strong></summary>
+
+Use Python 3 and the dependencies listed in [requirements.txt](requirements.txt):
 
 ```sh
 python -m pip install -r requirements.txt
 python build_deck.py
 ```
 
-The build writes `Triton_PreSeed_Deck_v4.pdf` in the repository root. It uses Arial when available on Windows, otherwise Helvetica, and preserves the navy/cyan identity and original observation-surface artwork. Text remains selectable in the PDF.
+The build writes `Triton_PreSeed_Deck_v4.pdf` in the repository root. It uses Arial on Windows when available, otherwise Helvetica. PDF text remains selectable; the original observation-surface artwork and navy/cyan presentation identity are preserved.
 
-After editing, render and visually inspect all pages. Check text fit, source links, financial arithmetic and the distinction between evidence and assumptions before publishing.
-
-## Repository layout
+Render and inspect every page after an edit. Check text fit, source links, financial arithmetic and evidence labels before publishing. Changes to the deployed branch appear on GitHub Pages after deployment completes.
 
 ```text
 index.html                       GitHub Pages PDF viewer
-Triton_PreSeed_Deck_v4.pdf        Current network-first revision
+Triton_PreSeed_Deck_v4.pdf        Current network-first presentation
 build_deck.py                    Editable PDF generator
 CLAIMS_AND_ASSUMPTIONS.md        Evidence and diligence companion
 requirements.txt                Build dependencies
-assets/observation-surfaces.png  Original deck artwork
+assets/                         Presentation artwork and README visuals
 ```
 
-Earlier PDFs remain available in the repository for version history. This repository contains the investor presentation and its source; it is not the operational Triton data platform.
+The README banner is a conceptual illustration, not a map of deployed coverage. Banner and badges are local, editable SVG files, without external image-service dependencies.
+
+</details>
 
 ---
 
 **Triton Ocean Systems** · Jorge Pimentel, Founder & CTO
 
-[Investor deck](https://triton-ocean-systems.github.io/investor-deck/index.html) · [GitHub repository](https://github.com/Triton-Ocean-Systems/investor-deck)
+[Live investor deck](https://triton-ocean-systems.github.io/investor-deck/index.html) · [GitHub repository](https://github.com/Triton-Ocean-Systems/investor-deck)
