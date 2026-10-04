@@ -32,7 +32,7 @@ Triton's potential advantage depends on useful coverage, reliable delivery and a
 | [Network-first deck · v4](Triton_PreSeed_Deck_v4.pdf) | The 12-page investor narrative included with this source revision. |
 | [Claims and assumptions](CLAIMS_AND_ASSUMPTIONS.md) | Evidence, sources, financial assumptions and tests that could disprove the thesis. |
 | [Editable build source](build_deck.py) | Text, layout and presentation logic used to generate the PDF. |
-| [Revision pull request](https://github.com/Triton-Ocean-Systems/investor-deck/pull/1) | Review the proposed deck and source changes before deployment. |
+| [Revision pull request](https://github.com/Triton-Ocean-Systems/investor-deck/pull/2) | Review the proposed deck and source changes before deployment. |
 
 The live presentation may show an earlier version until the revision is merged and GitHub Pages finishes deployment. The PDF link above follows the files on the branch being viewed.
 
