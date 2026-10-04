@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Triton Ocean Systems | Pre-Seed Deck</title>
+<style>
+body{margin:0;background:#03111a;color:#f6f9fa;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;border-bottom:1px solid #12303d}
+h1{font-size:15px;margin:0;letter-spacing:.08em}
+a{color:#00becd;text-decoration:none;font-size:14px}
+main{max-width:1100px;margin:0 auto;padding:16px}
+canvas{width:100%;height:auto;display:block;margin:0 0 16px;border-radius:6px}
+#status{padding:24px;color:#809ba6}
+</style>
+</head>
+<body>
+<header><h1>TRITON OCEAN SYSTEMS</h1><a href="Triton_PreSeed_Deck_v2.pdf">Download PDF</a></header>
+<main id="deck"><p id="status">Loading deck...</p></main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+var FILE = 'Triton_PreSeed_Deck_v2.pdf';
+function fallback(){ document.getElementById('status').innerHTML = '<a href="' + FILE + '">Open the deck (PDF)</a>'; }
+(async function(){
+  try {
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    var pdf = await pdfjsLib.getDocument(FILE).promise;
+    var deck = document.getElementById('deck');
+    document.getElementById('status').remove();
+    for (var i = 1; i <= pdf.numPages; i++) {
+      var page = await pdf.getPage(i);
+      var vp = page.getViewport({scale: 2});
+      var c = document.createElement('canvas');
+      c.width = vp.width; c.height = vp.height;
+      deck.appendChild(c);
+      await page.render({canvasContext: c.getContext('2d'), viewport: vp}).promise;
+    }
+  } catch (e) { fallback(); }
+})();
+</script>
+</body>
+</html>
